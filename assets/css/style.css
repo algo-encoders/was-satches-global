@@ -1,0 +1,28 @@
+.insw-attr-row .img-thumbnail{
+    width: 48px;
+    cursor: pointer;
+}
+
+.insw-attr-row .clear-image{
+    color: lightgrey;
+    cursor: not-allowed;
+
+}
+
+.insw-attr-row .clear-image.active{
+    color: #dc3545;
+    cursor: pointer;
+}
+
+.img-container span{
+    position: relative;
+
+}
+
+.img-container .dashicons{
+    position: absolute;
+    right: -7px;
+    top: -7px;
+    z-index: 10;
+
+}
